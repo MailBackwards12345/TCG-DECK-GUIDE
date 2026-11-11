@@ -1,0 +1,208 @@
+ h2{
+            color: rgb(5, 48, 86);
+            font-style: italic;
+            font-size: 40px;
+        }
+
+        p{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            font-weight: 300;
+        }
+        .card { padding: 60px; margin: 60px; border: 10px dashed red; width: 200px;}
+        .smash { color: aqua;} 
+        .box {
+            width: 100px;
+            height: 100px;
+            background: tomato;
+            margin: 10px;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rebeccapurple;
+            padding: 0 20px;
+        }
+
+        .navbar a {
+            color: azure;
+        }
+
+        .navbar h2{
+            color: azure;
+        }
+
+    body {
+    font-family: Calibri, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Calibri, sans-serif;
+}
+
+h2 {
+    padding: 10px;
+    color: white;
+    font-family: Calibri, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-family: Calibri, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+p {
+    font-family: Calibri, sans-serif;
+    margin-top: 3px;
+    margin-bottom: 7px;
+    line-height: 1.2;
+}
+
+button {
+    font-family: Calibri, sans-serif;
+}
+
+.joke {
+    font-family: Calibri, sans-serif;
+}
+
+.rules-links a {
+    color: blue;
+    margin-right: 15px;
+}
+
+.universus {
+    background-color: #2874a6;
+}
+
+.onepiece {
+    background-color: #333333;
+}
+
+.pokemon {
+    background-color: #388e3c;
+}
+
+a {
+    text-decoration: none;
+}
+
+.deck-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.deck {
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+.deck img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+}
+
+.deck p {
+    font-weight: bold;
+    color: black;
+}
+
+.shifter-image {
+    position: relative;
+    width: 100%;
+    height: 220px;
+}
+
+.shifter-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.shifter-image .titan {
+    display: none;
+}
+
+.shifter-image:hover .human {
+    display: none;
+}
+
+.shifter-image:hover .titan {
+    display: block;
+}
+
+.character-images {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.character-images img {
+    width: 200px;
+    height: 280px;
+    object-fit: contain;
+}
+
+/* Keyword colours */
+
+.enhance {
+    color: #D6A500;
+    font-weight: bold;
+}
+
+.response {
+    color: #269447;
+    font-weight: bold;
+}
+
+.form {
+    color: #2874D0;
+    font-weight: bold;
+}
+
+.health {
+    color: red;
+    font-weight: bold;
+}
+
+.hand-size {
+    color: olive;
+    font-weight: bold;
+}
+
+.momentum {
+    color: purple;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+    border-top: 1px solid #cccccc;
+    color: #666666;
+    font-size: 14px;
+}
+
+.head{
+    color: black;
+}
